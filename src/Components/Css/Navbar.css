@@ -1,0 +1,156 @@
+
+.travel-navbar {
+  background: linear-gradient(110deg, #102c46, #173f60);
+  padding: 13px 0;
+  box-shadow: 0 4px 20px rgba(10, 35, 55, 0.15);
+  z-index: 1000;
+}
+
+/* Logo */
+.travel-logo {
+  font-size: 27px;
+  font-weight: 800;
+  color: #fff !important;
+  letter-spacing: -1px;
+  transition: transform 0.3s ease;
+}
+
+.travel-logo:hover {
+  transform: scale(1.05);
+}
+
+.travel-logo > span:last-child {
+  color: #35b6ff;
+}
+
+.logo-icon {
+  display: inline-block;
+  margin-right: 8px;
+  color: #35b6ff;
+}
+
+/* Navigation */
+.travel-navbar .navbar-nav {
+  gap: 8px;
+}
+
+.travel-navbar .nav-link {
+  position: relative;
+  color: #e2edf7;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 12px 14px !important;
+  transition: color 0.3s ease;
+}
+
+/* Animated underline */
+.travel-navbar .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 3px;
+  width: 0;
+  height: 3px;
+  background: #35b6ff;
+  border-radius: 5px;
+  transform: translateX(-50%);
+  transition: width 0.3s ease;
+}
+
+.travel-navbar .nav-link:hover {
+  color: #35b6ff;
+}
+
+.travel-navbar .nav-link:hover::after,
+.travel-navbar .nav-link.active::after {
+  width: 65%;
+}
+
+.travel-navbar .nav-link.active {
+  color: #35b6ff;
+}
+
+/* Booking Button */
+.nav-book-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 23px;
+  border-radius: 9px;
+  background: #087bfa;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 5px 15px rgba(8, 123, 250, 0.2);
+  transition:
+    background 0.3s ease,
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.nav-book-btn span {
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+.nav-book-btn:hover {
+  color: #fff;
+  background: #35aaff;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(8, 123, 250, 0.35);
+}
+
+.nav-book-btn:hover span {
+  transform: translate(3px, -3px);
+}
+
+/* Mobile menu button */
+.custom-toggler {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 7px 10px;
+}
+
+.custom-toggler:focus {
+  box-shadow: 0 0 0 3px rgba(53, 182, 255, 0.25);
+}
+
+.custom-toggler .navbar-toggler-icon {
+  filter: brightness(0) invert(1);
+}
+
+/* Responsive design */
+@media (max-width: 991px) {
+  .travel-navbar .navbar-collapse {
+    padding: 15px 0 8px;
+  }
+
+  .travel-navbar .navbar-nav {
+    gap: 2px;
+  }
+
+  .travel-navbar .nav-link {
+    padding: 11px 8px !important;
+  }
+
+  .travel-navbar .nav-link::after {
+    left: 8px;
+    transform: none;
+    bottom: 3px;
+  }
+
+  .travel-navbar .nav-link:hover::after,
+  .travel-navbar .nav-link.active::after {
+    width: 45px;
+  }
+
+  .nav-book-btn {
+    margin-top: 12px;
+  }
+}
+
+@media (max-width: 400px) {
+  .travel-logo {
+    font-size: 23px;
+  }
+}
