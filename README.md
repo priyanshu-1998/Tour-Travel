@@ -1,16 +1,85 @@
-# React + Vite
+  Tour & Travel 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Explore Destinations. Discover Adventures. Create Memories.
 
-Currently, two official plugins are available:
+TravelGo is a modern and responsive tour and travel website built using React.js, Bootstrap, HTML, and CSS. It provides an attractive user interface for exploring destinations, browsing travel packages, and viewing booking and contact pages.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project was developed to demonstrate my frontend development skills, responsive UI design, component-based architecture, and React Router navigation.
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🏠 Attractive homepage with a travel-themed layout
+- 🌍 Destination page to explore popular places
+- 🧳 Travel packages section
+- 📅 Book Now page UI
+- 📞 Contact Us page
+- 🧭 Responsive navigation bar with hover effects
+- 🎨 Modern footer design
+- 📱 Responsive layout for desktop, tablet, and mobile
+- 🔗 Navigation between pages using React Router DOM
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Bootstrap
+- React Router DOM
+- Vite
+
+## 💻 Installation and Setup
+
+1. Clone this repository:
+
+   ```bash
+   git clone YOUR_GITHUB_REPOSITORY_URL
+   ```
+
+2. Open the project folder:
+
+   ```bash
+   cd YOUR_PROJECT_FOLDER
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL displayed in your terminal.
+
+## 📂 Main Project Pages
+
+- Home
+- Destinations
+- Packages
+- Booking
+- Contact Us
+
+## 🎯 Project Objective
+
+The objective of this project is to build an engaging travel website while practicing React components, reusable UI elements, responsive design, routing, and frontend development best practices.
+
+## 👨‍💻 Developer
+
+Developed as a personal portfolio project to showcase my web development skills and learning journey.
+
+## 📌 Future Improvements
+
+- Connect booking forms to a backend API
+- Add user authentication
+- Integrate a database for travel packages
+- Add real-time booking functionality
+- Deploy the website for public access
+
+---
+
+⭐ If you find this project interesting, feel free to explore the source code and share feedback.
